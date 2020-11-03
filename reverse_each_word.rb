@@ -1,6 +1,5 @@
 def reverse_each_word(string)
-  string.reverse!
+  each_char.to_a.reverse.join
   p string
 end
 
-each_char.to_a.reverse.join

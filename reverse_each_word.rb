@@ -1,4 +1,4 @@
 def reverse_each_word(string)
-  return string.split.map(&:reverse).join " "
+  return string.split.each(&:reverse).join " "
 end
 
